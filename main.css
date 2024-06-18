@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* { margin: 0; padding: 0; }
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#homepage-container {
+    height: 100%;
+    width: 100%;
+}
+
+#landing-page-container {
+    height: 100vh;
+    width: 100%;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-container {
+    height: 65px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid white;
+    font-family: "Lato", serif;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    color: rgb(202, 202, 202);
+}
+
+.navbar-links ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 0 5px 15px;
+    font-size: 16px;
+    color: white;
+}
+
+
+.navbar-logo h3 {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.landing-page-title-container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", serif;
+}
+
+.landing-page-title {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.landing-page-title h1 {
+    margin-bottom: 20px;
+    padding: 0 50px 20px 50px;
+    font-size: 90px;
+    border-bottom: 1px solid white;
+    color: rgb(230, 230, 230);
+}
+
+.landing-page-title h2 {
+    font-size: 45px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(230, 230, 230);
+    opacity: 0.9;
+}
+
+#homepage-main-content-container {
+    height: 160vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-item1 {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.main-content-item2 {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+
+.main-content-item3 {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.info-card1 {
+    width: 65%;
+    background-color: black;
+    color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Lato", serif;
+}
+
+.info-card1 h1 {
+    margin: 0 80px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.info-card1 p {
+    margin: 0 80px;
+    font-size: 20px;
+    font-weight: 275;
+}
+
+.image-card1 {
+    width: 45%;
+    background-image: url(images/human-holding-a-bread-745988.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-card2 {
+    width: 45%;
+    background-image: url(images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.image-card3 {
+    width: 45%;
+    background-image: url(images/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
